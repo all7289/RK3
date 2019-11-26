@@ -8,7 +8,7 @@ create table `goods`(
 	`cout` int not null
 );
 
-INSERT INTO `annguyen.goods`(`name`,`manufacturer`,`description`,`cout`)
+INSERT INTO `annguyen`.`goods`(`name`,`manufacturer`,`description`,`cout`)
 VALUES ('food','nestle','50g/1package',1352),
 		('toy','cartoon','',2310),
 		('chika','disney','1kg/1package',1352),
@@ -22,9 +22,9 @@ VALUES ('food','nestle','50g/1package',1352),
 		('cereal','nestle','',607),
 		('kimeat','nestle','kg',1890);
 		
-DELETE FROM `annguyen.goods` WHERE 'cout'=0;
+DELETE FROM `annguyen`.`goods` WHERE 'cout'=0;
 
 SELECT *
-FROM `annguyen.goods`
+FROM `annguyen`.`goods`
 WHERE `name` LIKE 'k%' AND `cout` BETWEEN 300 and 1000;
 
