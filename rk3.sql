@@ -22,7 +22,7 @@ VALUES ('food','nestle','50g/1package',1352),
 		('cereal','nestle','',607),
 		('kimeat','nestle','kg',1890);
 		
-DELETE FROM `annguyen`.`goods` WHERE 'cout'=0;
+DELETE FROM `annguyen`.`goods` WHERE `cout`=0;
 
 SELECT *
 FROM `annguyen`.`goods`
