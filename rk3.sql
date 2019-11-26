@@ -18,9 +18,9 @@ VALUES ('food','nestle','50g/1package',1352),
 		('cream','nestle','',1352),
 		('nutrion','nestle','',934),
 		('desk','wek','',11789),
-		('koko','wek','5',2456),
+		('koko','wek','5',456),
 		('cereal','nestle','',607),
-		('meat','nestle','kg',1890);
+		('kimeat','nestle','kg',1890);
 		
 DELETE FROM `annguyen.goods` WHERE 'cout'=0;
 
