@@ -24,6 +24,7 @@ VALUES ('food','nestle','50g/1package',1352),
 		
 DELETE FROM `annguyen.goods` WHERE 'cout'=0;
 
-SELECT * FROM table `annguyen.goods` WHERE `name` LIKE 'k%' AND `cout`<1000 AND `cout`>300
-
+SELECT *
+FROM `annguyen.goods`
+WHERE `name` LIKE 'k%' AND `cout` BETWEEN 300 and 1000;
 
